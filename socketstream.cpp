@@ -204,7 +204,7 @@ Server::Server()
 
 Server::Server(const char * ip_address, unsigned short port, bool verbose)
 {
-	this->bind_to_server(ip_address, port, verbose);
+	this->bind_to_port(ip_address, port, verbose);
 }
 
 Server::~Server()
@@ -216,7 +216,7 @@ Server::~Server()
 Funcao que inicializa os atributos do objeto Servidor.
 Depois liga o objeto Servidor a porta e ao IP dados nos argumetos
 */
-int Server::bind_to_server(const char * ip_address, unsigned short port, bool verbose)
+int Server::bind_to_port(const char * ip_address, unsigned short port, bool verbose)
 {
 	//Incializar atributos
 	this->socket.initialize(verbose);

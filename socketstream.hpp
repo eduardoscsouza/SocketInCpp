@@ -97,7 +97,7 @@ public:
 	Server(const char *, unsigned short, bool=true);
 	~Server();
 
-	int bind_to_server(const char *, unsigned short, bool=true);
+	int bind_to_port(const char *, unsigned short, bool=true);
 	int accept_clients(size_t, bool=true);
 	int send(size_t, void *, size_t, bool=true);
 	int receive(size_t, void *, size_t, bool=true);
