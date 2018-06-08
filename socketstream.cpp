@@ -1,9 +1,8 @@
 /*
-Eduardo Santos Carlos de Souza	9293481
-Fabrício Guedes Faria			9293522
-Guilherme Hideo Tubone			9019403
-Lucas de Oliveira Pacheco		9293182
+Author: Eduardo Santos Carlos de Souza
 */
+
+
 
 #include <unistd.h>
 #include <cstring>
